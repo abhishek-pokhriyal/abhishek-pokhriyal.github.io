@@ -1,0 +1,44 @@
+* {font-family:Tahoma;}
+
+.left_column {
+	margin-right: 170px;
+}
+
+.right_column{
+	float: right;
+	width: 160px;
+}
+
+ul#nav_container {
+	list-style-type: none;
+	margin-bottom: 15px;
+	text-shadow:3px 3px 3px #888;
+
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#main_content {
+	width: 900px;
+	margin: auto;
+}
+
+body {	
+}
+h1#heading{
+	text-align:center;
+	margin-bottom:0px;
+}
+
+p#header_info {
+	margin-top:0px;
+	text-align: center;
+}
