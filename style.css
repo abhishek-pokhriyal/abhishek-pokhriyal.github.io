@@ -1,11 +1,37 @@
 * {
 font-family:verdana,sans-serif;
+
 }
+
+
 
 .left_column {
 	margin-right:400px;
 	margin-left:0px;
 }
+
+.sem1 {
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:50px;
+	margin-right:700px;
+	width:600px;
+}
+#year{
+	margin:5px;
+	border-width:thin;
+	border-style:solid;
+}
+
+.sem2{
+	float:right;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:50px;
+	width:600px;
+}
+
 
 .right_column{
 	float: right;
@@ -13,10 +39,11 @@ font-family:verdana,sans-serif;
 	margin-top:0px;
 	border-style:solid;
 	border-width:thin;
-	
+	background-color:rgb(240,230,140);
 }
 .right_column h4 {
 margin-top:0px;
+
 }
 
 ul#nav_container {
@@ -67,15 +94,25 @@ ol#news {
 	font-size: 80%;
 	margin-top:0px;
 	list-style-type: upper-roman;
-	
 }
 
-ol#news li{margin-left:-10px;}
+ol#news li{margin-left:0px;}
 
-p#proj_description {
+p#proj_detail {
 	font-size:smaller;
-	margin-top:5px;
+	margin-top:2px;
+	color:grey;
 }
-ol#project{
-	
+
+.biography {
+	width:650px;
+	font-size:95%;
+	text-shadow:0px 0px 1px;
+	background-color:rgb(220,220,0);
+	margin-top:20px;
+	height:400px;
 }
+.biography p {
+	width:600px; 
+	margin-left:26px;
+	}
