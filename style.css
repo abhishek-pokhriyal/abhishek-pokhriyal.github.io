@@ -4,7 +4,6 @@ font-family:verdana,sans-serif;
 }
 
 
-
 .left_column {
 	margin-right:400px;
 	margin-left:0px;
@@ -35,7 +34,8 @@ font-family:verdana,sans-serif;
 
 .right_column{
 	float: right;
-	width: 350px;
+	width: 320px;
+	height:350px;
 	margin-top:0px;
 	border-style:solid;
 	border-width:thin;
@@ -43,7 +43,6 @@ font-family:verdana,sans-serif;
 }
 .right_column h4 {
 margin-top:0px;
-
 }
 
 ul#nav_container {
@@ -111,8 +110,13 @@ p#proj_detail {
 	background-color:rgb(220,220,0);
 	margin-top:20px;
 	height:400px;
+	margin-left:210px;
+	margin-top:0px;
 }
 .biography p {
 	width:600px; 
-	margin-left:26px;
+	margin-right:100px;
+	margin-left:25px;
+	
 	}
+#right_col {float:right;  }
