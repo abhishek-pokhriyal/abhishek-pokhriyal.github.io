@@ -22,4 +22,8 @@
 	font-family: 'Rubik-Bold';
 }
 
+.primary-text-shadow {
+	text-shadow: 1px 3px 0px hsla(0, 0%, 0%, 0.2);
+}
+
 .biography {background-color:rgb(220,220,0)}
