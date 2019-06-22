@@ -1,42 +1,56 @@
 <html>
 	<head>
 		<title>Homepage of Abhishek Pokhriyal</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel='stylesheet' type='text/css' href='style.css'>
+		<style>i {color: rgb(100,100,255); }</style>
 	</head>
 	<body>
-		<div id="header">
-			<h1 id="heading">Bio</h1>
+		<div id="header" class="py-1 py-lg-3">
+			<h1 id="heading">Abhishek Pokhriyal</h1>
+			<p id="header_info" class="mb-0">Senior Year Undergraduate <br>
+			Computer Science and Engineering <br>
+			THDC Institute of Hydropower Engineering and Technology <br>
+			Tehri, Uttarakhand, INDIA 249124
+			</p>
 		</div>
 		
-		<hr>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item mx-lg-3"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item mx-lg-3"><a href="proj.html" class="nav-link">Projects</a></li>
+					<li class="nav-item mx-lg-3"><a href="interest.html" class="nav-link">Interests</a></li>
+					<li class="nav-item  mx-lg-3"><a href="course.html" class="nav-link">Courses</a></li>
+					<li class="nav-item active mx-lg-3"><a href="bio.html" class="nav-link">Bio</a></li>
+					<li class="nav-item mx-lg-3"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
 		
-		<ul id="nav_container">
-			<li><a href="index.html"">Home</a></li>
-			<li><a href="proj.html">Projects</a></li>
-			<li><a href="interest.html">Interests</a></li>
-			<li><a href="course.html">Courses</a></li>
-			<li><a href="bio.html">Bio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-		
-			<style>img {margin-right:230px; border:dashed; border-width:thin;}</style>
+		<div id="main_content" class="py-2 py-lg-5">
 			<div id="right_col">
-			<img src="myimg.jpg" width=250 height=215>
+				<img src="myimg.jpg" width="250" height="auto" class="mt-n4 rounded">
 			</div>
 			<div class="biography">
-			<p><br>
-			I was born in Delhi, the year Lov Grover gave his <i>database search algorithm</i>.
-			It was 1996 in case you are still wondering. I grew up watching and playing (like 
-			any other Indian kid) cricket. I completed my 10+2 education from Balvantray Mehta 
-			Vidya Bhawan, Greater Kailash - II in the year 2014.
-			</p>
-			<p>
-			In the month of August that same year, I started my B.Tech in Computer Science and Engineering from THDC
-			Institute of Hydropower Engineering and Technology. The college is in the beautiful 
-			city of Tehri in the Uttarakhand state.
-			</p>
-			<p>My hobbies: reading about various kind of stuff like history, philosophy, Hinduism and a lot more things. 
-			I'm a huge fan of electronic music. I like playing basketball.</p>
+				<p><br>
+					I was born in Delhi, the year Lov Grover gave his <i>database search algorithm</i>.
+					It was 1996 in case you are still wondering. I grew up watching and playing (like 
+					any other Indian kid) cricket. I completed my 10+2 education from Balvantray Mehta 
+					Vidya Bhawan, Greater Kailash - II in the year 2014.
+				</p>
+				<p>
+					In the month of August that same year, I started my B.Tech in Computer Science and Engineering from THDC
+					Institute of Hydropower Engineering and Technology. The college is in the beautiful 
+					city of Tehri in the Uttarakhand state.
+				</p>
+				<p>My hobbies: reading about various kind of stuff like history, philosophy, Hinduism and a lot more things. 
+				I'm a huge fan of electronic music. I like playing basketball.</p>
 			</div>
+		</div>
 	</body>
 </html>
